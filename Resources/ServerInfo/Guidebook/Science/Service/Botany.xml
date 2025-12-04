@@ -1,0 +1,100 @@
+<!--
+SPDX-FileCopyrightText: 2023 Kevin Zheng <kevinz5000@gmail.com>
+SPDX-FileCopyrightText: 2023 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
+SPDX-FileCopyrightText: 2023 end <72604018+laok233@users.noreply.github.com>
+SPDX-FileCopyrightText: 2023 willicassi <146377084+willicassi@users.noreply.github.com>
+SPDX-FileCopyrightText: 2024 IlyaElDunaev <154531074+IlyaElDunaev@users.noreply.github.com>
+SPDX-FileCopyrightText: 2024 UBlueberry <161545003+UBlueberry@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<Document>
+# botánica
+Como botánico, tu trabajo es cultivar suficientes alimentos para evitar que el chef busque "fuentes alternativas". Cultiva mucho trigo y, cuando te canses, cultiva hierba. Prepare batidos de marihuana y bebidas con ortigas. ¡Sigue cultivando plantas y lo lograrás genial!
+
+## Comenzando tu turno
+Primero identifique las máquinas a su alrededor que utilizará. Coordine con el Chef para ver si quiere que se cultive algo específico; de lo contrario, cultive trigo y plátanos y cualquier otra cosa que le apetezca cultivar. También puedes cultivar plantas para Química (Medbay), el Bartender o para venderlas por Cargo.
+
+
+# Herramientas
+Existen muchas herramientas que se pueden utilizar para mantener sus cultivos sanos y en crecimiento. La Bandeja de Hidroponía es donde pasarás la mayor parte de tu tiempo como botánico.
+
+## Bandeja hidropónica
+<Box>
+<GuideEntityEmbed Entity="hydroponicsTray"/>
+</Box>
+	Es una bandeja hidropónica, crece plantas con agua. Primero llena la bandeja con agua, luego agrega semillas.
+	Las luces de la bandeja hidropónica indican diferentes cosas según el color y la posición:
+	- [color=red]Luz Roja, Izquierda[/color]: Planta muerta que necesita ser replantada. Usa una pala para quitar la planta.
+	- [color=orange]Luz Naranja Intermitente, Centro[/color]: El ambiente es subóptimo. Verifica qué está afectando a la planta haciendo Shift + Clic en ella. Es probable que sean maleza, pero también podría ser presión no deseada o falta de oxígeno. Si es maleza, usa una mini azada o rocía una vez con spray para maleza. Ten cuidado, sin embargo, el uso excesivo de herbicidas puede hacer que las plantas se vuelvan poco saludables, incluso matándolas.
+	- [color=#0336ff]Luz Azul, Derecha[/color]: Necesita agua. Usa un balde sobre el tanque de agua y llena la bandeja.
+	- [color=green]Luz Verde, Izquierda[/color]: Lista para cosechar. Haz clic izquierdo para cosechar.
+	- [color=yellow]Luz Amarilla, Derecha[/color]: Necesita nutrientes. Usa cualquier fruta y ponla en el suelo o consigue nutrientes EZ de la química.
+
+	El ciclo de vida de una bandeja hidropónica es el siguiente:
+	- [color=lightgreen]Vacía[/color]: sin agua, semillas ni nutrientes
+	- [color=lightgreen]Hidratada[/color]: has agregado agua (por ejemplo, de una botella o balde).
+	- [color=lightgreen]Lista para plantar[/color]: has agregado agua y nutrientes (es decir, fertilizantes).
+	- [color=lightgreen]Plantada[/color]: has agregado una semilla
+	- [color=lightgreen]Lista para cosecha[/color]: has esperado a que la planta crezca
+	- [color=lightgreen]Muestreada[/color]: has tomado una muestra (semilla)
+	- [color=lightgreen]Cosechada[/color]: has recogido plantas listas. Algunas crecerán nuevamente. Otras morirán y necesitarán ser replantadas.
+	- [color=lightgreen]No saludable[/color]: has tomado demasiadas semillas o rociado con químicos mortales. La planta no está respondiendo bien. Continuará creciendo. La salud se puede restaurar con fertilizantes o puedes cortar pérdidas y extraer una semilla (con tijeras de plantas) y replantar.
+	- [color=lightgreen]Vieja / Marchita[/color]: la planta ha madurado y morirá pronto. Aún se puede cosechar y extraer semillas, pero solo por un corto período. Extrae la semilla y luego arráncala / córtala.
+	- [color=lightgreen]Muerta[/color]: la planta ha sido cosechada y ha dejado de crecer. Debe ser arrancada / cortada. No se pueden extraer semillas.
+
+	## Extractor de semillas
+	<Box>
+<GuideEntityEmbed Entity="SeedExtractor"/>
+</Box>
+	Extrae semillas. Inserta el cultivo, recibe semillas.
+
+	# Genética de Plantas
+	Al igual que todas las formas de vida conocidas por NanoTrasen, las plantas transmiten rasgos a su descendencia en sus genes. Al manipular la genética de las plantas, los botánicos pueden producir variedades de plantas con mutaciones deseables que aumentan la salud y el rendimiento de las plantas.
+
+	## Rasgos
+	El fenotipo, o conjunto de características observables de una planta, se puede determinar a través de la observación y el estudio cuidadoso. Algunos rasgos comunes incluyen:
+
+	- [color=lightgreen]Bioluminiscencia[/color]: las plantas con este rasgo brillan en la oscuridad
+	- [color=lightgreen]Alto rendimiento[/color]: las plantas con este rasgo rinden más frutas por cosecha
+	- [color=lightgreen]Menos agua[/color]: las plantas con este rasgo requieren menos agua de lo normal para crecer
+	- [color=lightgreen]Lignoso[/color]: las plantas con este rasgo requieren herramientas afiladas para cosecharse
+	- [color=lightgreen]Larga vida[/color]: las plantas con este rasgo viven más ciclos de cosecha antes de morir
+	- [color=lightgreen]Baja luz[/color]: las plantas con este rasgo necesitan menos luz para crecer
+	- [color=lightgreen]Resistencia a plagas[/color]: las plantas con este rasgo son más resistentes a las plagas
+	- [color=lightgreen]Sin semillas[/color]: las plantas con este rasgo no producen semillas viables
+	- [color=lightgreen]Resistencia a malezas[/color]: las plantas con este rasgo suprimen el crecimiento de malezas
+
+	Puedes determinar el fenotipo de una planta simplemente cultivándola y observándola. ¡Así es como Gregor Mendel, padre de la genética, las estudió en 1866!
+
+	## Mutaciones
+	Las plantas tratadas con [color=cyan]mutágeno inestable[/color] experimentarán mutaciones genéticas aleatorias, lo que puede alterar sus genes y resultar en cambios en sus rasgos. Puedes guardar las plantas con mutaciones que desees cosechando sus semillas.
+
+	Cuanto más mutágeno inestable uses, más mutaciones obtendrás. Dado que muchos genes son vitales para la supervivencia de la planta, la mayoría de las mutaciones causarán la muerte de la planta.
+
+	<Box>
+<GuideEntityEmbed Entity="ChemistryBottleUnstableMutagen"/>
+</Box>
+
+	## Polinización Cruzada
+	Puedes usar un [color=cyan]hisopo estéril[/color] para transferir polen de una planta a otra. Las plantas polinizadas cruzadamente tienen la oportunidad de transferir rasgos. Ten cuidado al reutilizar los hisopos; ¡el polen es pegajoso!
+
+	<Box>
+<GuideEntityEmbed Entity="BoxMouthSwab"/>
+<GuideEntityEmbed Entity="DiseaseSwab"/>
+</Box>
+
+	## Químicos
+	Algunos productos químicos tienen efectos especiales sobre las plantas.
+
+	[textlink="Haz clic aquí para ver todos los productos químicos botánicos." link="Botanical"]
+
+<GuideReagentEmbed Reagent="Dylovene"/>
+<GuideReagentEmbed Reagent="Cryoxadone"/>
+<GuideReagentEmbed Reagent="Necrosol"/>
+<GuideReagentEmbed Reagent="Phalanximine"/>
+<GuideReagentGroupEmbed Group="Botanical"/>
+
+</Document>

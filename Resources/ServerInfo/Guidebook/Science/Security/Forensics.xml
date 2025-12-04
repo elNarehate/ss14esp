@@ -1,0 +1,61 @@
+<!--
+SPDX-FileCopyrightText: 2023 Chief-Engineer <119664036+Chief-Engineer@users.noreply.github.com>
+SPDX-FileCopyrightText: 2023 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
+SPDX-FileCopyrightText: 2023 Myakot <30875116+Myakot@users.noreply.github.com>
+SPDX-FileCopyrightText: 2023 faint <46868845+ficcialfaint@users.noreply.github.com>
+SPDX-FileCopyrightText: 2024 ArtisticRoomba <145879011+ArtisticRoomba@users.noreply.github.com>
+SPDX-FileCopyrightText: 2024 Iztok Bajcar <50874197+iztokbajcar@users.noreply.github.com>
+SPDX-FileCopyrightText: 2024 UBlueberry <161545003+UBlueberry@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<Document>
+	# Forense
+
+	Hay muchas herramientas a tu disposición para ayudarte a recoger y examinar las pruebas.
+
+	# Sonda de Registro
+
+	Este pequeño accesorio para tu PDA es increíblemente útil, solo instala el cartucho y tu PDA adquirirá la capacidad de escanear cualquier cosa que requiera acceso (como esclusas de aire) y ver quién las ha usado recientemente.
+
+	Normalmente lo puedes encontrar dentro del casillero del detective. Después de insertarlo en tu PDA, ve a la pestaña de programas y la aplicación de la sonda de registro debería aparecer allí. Para usar la aplicación, solo tienes que interactuar con cualquier cosa que requiera acceso usando tu PDA mientras la aplicación esté abierta, y la información se mostrará al instante.
+
+	Cabe destacar que el nombre mostrado en la aplicación no debe ser 100% confiable, ya que obtiene el nombre de la tarjeta de identificación de quien usó lo que estamos escaneando, así que si por ejemplo alguien abrió una esclusa de aire sin tarjeta, la aplicación mostraría "Desconocido" como nombre.
+
+	<Box>
+    <GuideEntityEmbed Entity="LockerDetective"/>
+    <GuideEntityEmbed Entity="LogProbeCartridge"/>
+  </Box>
+
+	# ADN y Huellas Dactilares
+
+	## ¿Cómo obtener el ADN de alguien?
+
+	Puedes escanear charcos de sangre, vómito, gafas, botellas, latas y otros contenedores líquidos usando el [color=#a4885c]escáner forense[/color] para obtener el ADN de cualquier persona.
+<Box>
+    <GuideEntityEmbed Entity="ForensicScanner"/>
+  </Box>
+	Así que ten cuidado antes de pelear con alguien.
+
+	El mismo escáner también puede obtener información sobre las huellas dactilares de quien haya tocado prácticamente cualquier objeto. Si el posible culpable estaba usando guantes, entonces tu escáner imprimirá qué fibras fueron dejadas en la escena del crimen.
+
+	## Tengo ADN. ¿Cómo sé de quién es?
+
+	Puedes imprimir la información forense del objeto que escaneaste para que nunca la pierdas. Ahora, con el papel que contiene el ADN, simplemente busca una [color=#a4885c]Computadora de Registros de la Estación[/color] y busca a una persona cuyo ADN coincida. Lo mismo aplica para encontrar de quién son las huellas dactilares.
+
+	## Tomando Huellas Dactilares
+	También es posible tomar las huellas dactilares de alguien en la escena si haces que se quiten los guantes y aplicas una almohadilla forense en sus dedos. ¡No es necesario regresar a la [color=#a4885c]Computadora de Registros de la Estación[/color] para comprobar si el mayordomo lo hizo!
+
+	<GuideEntityEmbed Entity="ForensicPad"/>
+
+	## Fibras
+	Siempre que las personas que usan guantes tocan algo en la estación, es probable que dejen atrás algunas fibras. Esto complica las cosas, pero nada es irresoluble para un verdadero detective.
+
+	Hay hasta [color=red]26[/color] tipos diferentes de fibras posibles. ¿Eso puede detenerte para resolver el caso?
+
+	<Box>
+    <GuideEntityEmbed Entity="ComputerStationRecords"/>
+  </Box>
+</Document>

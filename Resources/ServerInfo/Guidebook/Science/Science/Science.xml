@@ -1,0 +1,64 @@
+<!--
+SPDX-FileCopyrightText: 2023 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
+SPDX-FileCopyrightText: 2023 Myakot <30875116+Myakot@users.noreply.github.com>
+SPDX-FileCopyrightText: 2023 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
+SPDX-FileCopyrightText: 2024 UBlueberry <161545003+UBlueberry@users.noreply.github.com>
+SPDX-FileCopyrightText: 2024 end <72604018+laok233@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<Document>
+	# Ciencia
+	[color=#c96dbf]Ciencia[/color], a menudo llamada Investigación y Desarrollo, es un trabajo compuesto tanto por generar puntos de investigación para desbloquear nuevas tecnologías como por usar dichas tecnologías para producir nuevos objetos en los lathes que ayuden a la estación.
+
+	## Personal
+	El personal de [color=#c96dbf]Ciencia[/color] está compuesto por Asistentes de Investigación y Científicos. [color=#c96dbf]Ciencia[/color] está a cargo del Director de Investigación.
+
+	<Box>
+   <GuideEntityEmbed Entity="ToyFigurineScientist" Caption="Scientist"/>
+   <GuideEntityEmbed Entity="ToyFigurineResearchDirector" Caption="RD"/>
+  </Box>
+
+## Technologies
+  <Box>
+    <GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/>
+    <GuideEntityEmbed Entity="ResearchAndDevelopmentServer"/>
+  </Box>
+	a cosa más importante dentro de tu departamento es el servidor de I+D, que almacena las tecnologías desbloqueadas, y la computadora de I+D, que te permite desbloquear [color=#a4885c]tecnologías[/color].
+
+	Cada tecnología cuesta [color=#a4885c]Puntos de Investigación[/color] y desbloquea recetas en los lathes. Algunas tecnologías también tendrán requisitos previos que debes desbloquear antes de poder investigarlas.
+
+	[textlink="Haz clic aquí para ver una lista de tecnologías." link="Technologies"].
+
+	## Disciplinas
+	Las tecnologías se dividen en 4 disciplinas diferentes:
+	<Box>
+    <GuideEntityEmbed Entity="Wrench" Caption="Industrial"/>
+    <GuideEntityEmbed Entity="WeaponTetherGun" Caption="Experimental"/>
+    <GuideEntityEmbed Entity="ComputerTelevision" Caption="Civil Services"/>
+    <GuideEntityEmbed Entity="WeaponXrayCannon" Caption="Arsenal"/>
+  </Box>
+
+<GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/>Usa la consola de I+D más cercana para tomar nota de qué tipo de investigación está bloqueada detrás de cada árbol de disciplinas.
+
+	## Niveles
+	Cada árbol de disciplinas tiene hasta 3 niveles de tecnologías. Al principio, el único nivel disponible es el nivel 1.
+
+	Para avanzar, debes investigar hasta el [color=brown]75%[/color] del nivel actual para pasar al siguiente. Entonces, para desbloquear investigaciones de T2 necesitas investigar el 75% de T1.
+
+	Ahora [color=green]Nivel 3[/color] es donde se pone interesante. Si investigas una tecnología de T3, [color=brown]bloqueas[/color] las tecnologías de T3 de otros árboles de disciplinas. Es decir, a menos que... encuentres alguna otra forma de evitarlo, probablemente debas preguntarle a tu [color=purple]Director de Investigación[/color].
+
+	## Lathes
+	<Box>
+    <GuideEntityEmbed Entity="Protolathe"/>
+    <GuideEntityEmbed Entity="CircuitImprinter"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ExosuitFabricator"/>
+    <GuideEntityEmbed Entity="MedicalTechFab"/>
+    <GuideEntityEmbed Entity="SecurityTechFab"/>
+  </Box>
+	En un lathe, puedes elegir un servidor para permitir que imprima las recetas que hayas desbloqueado. Las recetas requieren varios materiales (acero, vidrio, plástico, oro, plasma) que se pueden adquirir en Cargo o Salvage.
+</Document>

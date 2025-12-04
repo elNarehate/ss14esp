@@ -1,0 +1,28 @@
+<!--
+SPDX-FileCopyrightText: 2023 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
+SPDX-FileCopyrightText: 2024 end <72604018+laok233@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<Document>
+	# Tecnologías
+
+	Todas las tecnologías tienen un costo y un requisito de nivel para poder ser investigadas. Desbloquearlas añade una variedad de recetas que pueden ser impresas en varios lathes.
+
+	A continuación se enumeran las diferentes tecnologías y sus respectivas disciplinas.
+
+	## Industrial
+	<GuideTechDisciplineEmbed Discipline="Industrial"/>
+
+## Arsenal
+<GuideTechDisciplineEmbed Discipline="Arsenal"/>
+
+## Experimental
+<GuideTechDisciplineEmbed Discipline="Experimental"/>
+
+## Servicios civiles
+<GuideTechDisciplineEmbed Discipline="CivilianServices"/>
+
+</Document>

@@ -1,0 +1,47 @@
+<!--
+SPDX-FileCopyrightText: 2024 deltanedas <39013340+deltanedas@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 James Simonson <jamessimo89@gmail.com>
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<Document>
+	# Registros Criminales
+	La consola de registros criminales está disponible en el departamento de seguridad de cada estación. Su propósito es hacer un seguimiento y gestionar el historial criminal y el estatus de cualquiera que forme parte del manifiesto de la tripulación.
+
+	<Box>
+  <GuideEntityEmbed Entity="ComputerCriminalRecords"/>
+  </Box>
+	Cualquier persona puede abrir la interfaz de usuario de la consola, pero solo aquellos con acceso de Seguridad pueden modificar cualquier cosa.
+
+	La interfaz de usuario está compuesta por los siguientes elementos:
+	- Una barra de búsqueda con un filtro al lado que te permite filtrar a los miembros de la tripulación por sus nombres, huellas dactilares o ADN.
+
+	- Una lista de todos los miembros de la tripulación en el manifiesto, al seleccionar una de las entradas, aparecerán los registros criminales de dicho miembro. La lista se filtra mediante la barra de búsqueda, ¡así que asegúrate de que esté vacía si quieres ver un resumen general!
+
+	- Los registros criminales en sí mismos.
+
+	- El botón de filtro debajo de la lista de tripulantes se puede utilizar para mostrar solo los tripulantes buscados, detenidos o en libertad condicional.
+	En la sección de registro podrás:
+	- Ver información relacionada con la seguridad sobre un miembro de la tripulación, como su nombre, huellas dactilares y ADN.
+
+	- Cambiar el estado de seguridad entre [color=gray]nada[/color], [color=yellow]buscado[/color] and [color=red]detenido[/color]. Al configurarlo como Se busca, se le pedirá que escriba un motivo.
+
+	- Si son buscados, puede ver el motivo indicado debajo del menú desplegable de estado.
+
+	- Una vez que alguien haya sido arrestado, actualiza su estatus en la consola para que todos sepan que ya no necesita ser capturado.
+
+	- Después de que cumplan su condena, libéralos y actualiza su estatus a Ninguno para que nadie piense que es un convicto fugado..
+
+	- Abre la ventana del Historial Criminal para revisar o modificarlo.
+
+	La ventana de Historial Criminal enumera los crímenes de alguien y se puede modificar de varias maneras:
+	- Automáticamente, simplemente al poner el estatus de alguien como arrestado. La razón se agregará bajo "ARRESTADO:", para que sea fácil ver las entradas automáticas.
+
+	- Añadir una nueva línea haciendo clic en "Agregar" y escribiendo algo en el cuadro de entrada. Al agregar un registro, recuerda mencionar su crimen y sentencia, ¡la consola insertará automáticamente la hora del turno, así que no tendrás que hacerlo!
+
+	- Seleccionar una línea de historial no deseado y hacer clic en "Eliminar" para eliminarla. Perfecto para mantener los registros limpios de las travesuras del payaso con identificaciones robadas.
+
+	Ahora puedes ser el funcionario de escritorio que siempre has querido ser.
+</Document>

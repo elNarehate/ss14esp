@@ -1,0 +1,73 @@
+<!--
+SPDX-FileCopyrightText: 2023 M3739 <47579354+M3739@users.noreply.github.com>
+SPDX-FileCopyrightText: 2024 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
+SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<Document>
+	# Ciborgs
+	Los ciborgs son híbridos hombre-máquina, construidos con el propósito de ser utilizados en diversas tareas a través de la estación por la división de [textlink="robotics"  link="Robótica"] de la ciencia. Regidos por las [color=cyan]leyes de silicio[/color], sirven a la tripulación incondicionalmente. [italic](La mayoría de las veces.)[italic]
+
+	## Componentes Básicos
+	<Box>
+    <GuideEntityEmbed Entity="CyborgEndoskeleton" Caption="Cyborg Endoskeleton"/>
+    <GuideEntityEmbed Entity="ExosuitFabricator" Caption="Exosuit Fabricator"/>
+  </Box>
+	Todos los ciborgs están construidos sobre un endoesqueleto, el cual puede ser fabricado en un [color=#a4885c]Fabricador de Exosuits[/color]. Pasos adicionales de ensamblaje pueden seguirse [color=#a4885c]examinando[/color] el endoesqueleto. Una vez construido, se pueden desbloquear mejoras adicionales como herramientas extra y mayor duración de la batería mediante módulos o celdas de energía mejoradas.
+
+	Los ciborgs recién construidos necesitan un [color=#a4885c]cerebro[/color] capaz de interactuar con el cuerpo electrónico. Existen dos tipos principales, ambos capaces de hablar independientemente, si el chasis es desactivado, intercambiado o sufre una desensamblaje no programado.
+	- El [color=#a4885c]Interfaz Hombre-Máquina[/color] o IHM por sus siglas, es un aparato capaz de facilitar la comunicación entre un cerebro biológico y los componentes electrónicos, permitiendo que aquellos que sufren accidentes laborales graves continúen sirviendo a la tripulación, mucho después de que su cuerpo haya desaparecido.
+	- El [color=#a4885c]Cerebro Positrónico[/color] es un cerebro totalmente artificial, capaz de actividad neural espontánea. El tiempo necesario para que las neuronas sintéticas se desencripten puede variar considerablemente, pero permiten la creación de ciborgs sin necesidad de extraer un cerebro de un miembro de la tripulación.
+	<Box>
+    <GuideEntityEmbed Entity="MMIFilled" Caption="Man-Machine Interface"/>
+    <GuideEntityEmbed Entity="PositronicBrain" Caption="Positronic Brain"/>
+  </Box>
+	Ambos cerebros pueden ser fabricados sin requerir investigación adicional.
+
+	## Tipos de Ciborgs
+	Una vez creados, los ciborgs deben especializar su chasis para cumplir una función en la estación. Esto determina qué módulos comenzarán instalados, qué módulos adicionales pueden instalarse y a qué [color=#a4885c]canal de radio departamental[/color] tiene acceso. Todos los ciborgs tienen acceso a los canales de radio de [color=#D381C9]Ciencia[/color] y [color=green]estación en general[/color]. Todos los tipos de ciborgs tienen [color=#a4885c]acceso total[/color].
+	<Box>
+    <GuideEntityEmbed Entity="BorgChassisGeneric" Caption="Generic"/>
+    <GuideEntityEmbed Entity="BorgChassisEngineer" Caption="Engineering"/>
+    <GuideEntityEmbed Entity="BorgChassisMining" Caption="Salvage"/>
+    <GuideEntityEmbed Entity="BorgChassisJanitor" Caption="Janitor"/>
+    <GuideEntityEmbed Entity="BorgChassisService" Caption="Service"/>
+    <GuideEntityEmbed Entity="BorgChassisMedical" Caption="Medical"/>
+  </Box>
+  <Box>
+	  [italic]Ejemplos de varios tipos de ciborgs[/italic]
+  </Box>
+	Una vez que un chasis de ciborg ha sido especializado, no se puede cambiar. Para cambiar de tipo, se debe construir un nuevo chasis. El cerebro, la celda de energía y cualquier módulo [italic](si son compatibles con el nuevo chasis)[/italic] pueden ser transferidos del chasis antiguo si así se desea.
+
+	## Modules
+	<Box>
+    <GuideEntityEmbed Entity="BorgModuleTool" Caption="Tool Cyborg Module"/>
+  </Box>
+	Los ciborgs no tienen manos, por lo que no pueden recoger objetos como la mayoría de los demás jugadores. En su lugar, su equipo es proporcionado por diversos [color=#a4885c]módulos[/color]. Cada tipo de ciborg comienza con su propio conjunto específico de módulos, pero módulos adicionales pueden ser insertados como mejoras. Estos módulos adicionales pueden ser impresos en el [color=#a4885c]Fabricador de Exosuits[/color].
+
+	Los módulos [color=#a4885c]Genéricos[/color] añaden versatilidad. Pueden ser instalados en cualquier chasis, proporcionando herramientas útiles como palancas, GPS y la capacidad de interactuar con cables. [bold]El chasis de ciborg genérico puede adaptarse hasta a cinco módulos adicionales.[/bold]
+	<Box>
+    <GuideEntityEmbed Entity="BorgModuleCable" Caption="Cable"/>
+    <GuideEntityEmbed Entity="BorgModuleFireExtinguisher" Caption="Fire Extinguisher"/>
+  </Box>
+  <Box>
+	  [italic]Ejemplos de módulos genéricos[/italic]
+  </Box>
+
+	Para necesidades más específicas, existen módulos [color=#a4885c]especializados[/color], que otorgan capacidades como escanear anomalías, construir paredes, revivir compañeros de tripulación o limpiar derrames de lubricante en el espacio. Estos módulos suelen tener un esquema de colores que coincide con el departamento [italic](o ocupación)[/italic] al que están relacionados. Estos módulos [italic](excepto los módulos de [color=#D381C9]Ciencia[/color], que pueden adaptarse a cualquier chasis,)[/italic] solo pueden ser instalados en el chasis de ciborg asociado. [bold]Los chasis especializados, como los de ingeniería, conserjería, servicios, médicos y minería, pueden adaptar hasta tres módulos adicionales.[/bold]
+	<Box>
+    <GuideEntityEmbed Entity="BorgModuleAnomaly" Caption="Anomaly"/>
+    <GuideEntityEmbed Entity="BorgModuleRCD" Caption="RCD"/>
+    <GuideEntityEmbed Entity="BorgModuleMining" Caption="Mining"/>
+    <GuideEntityEmbed Entity="BorgModuleCleaning" Caption="Cleaning"/>
+    <GuideEntityEmbed Entity="BorgModuleService" Caption="Service"/>
+    <GuideEntityEmbed Entity="BorgModuleChemical" Caption="Chemical"/>
+  </Box>
+  <Box>
+	  [italic]Ejemplos de módulos especializados. Nota los colores de la carcasa y la placa del circuito.
+  </Box>
+	Módulos adicionales con capacidades avanzadas o novedosas pueden ser adquiridos a través de nuevas [textlink="technologies"  link="Tecnologías"] investigadas por los científicos.
+</Document>
+

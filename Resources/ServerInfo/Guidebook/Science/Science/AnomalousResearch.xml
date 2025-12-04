@@ -1,0 +1,48 @@
+<!--
+SPDX-FileCopyrightText: 2023 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
+SPDX-FileCopyrightText: 2023 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+
+SPDX-License-Identifier: MIT
+-->
+
+<Document>
+# Investigación anómala
+
+Investigación Anómala es un subdepartamento de Ciencia centrado en la contención y manipulación de varias anomalías únicas.
+
+## Equipo
+<Box>
+<GuideEntityEmbed Entity="AnomalyScanner"/>
+<GuideEntityEmbed Entity="MachineAnomalyVessel"/>
+<GuideEntityEmbed Entity="MachineAPE"/>
+</Box>
+
+Scanners, vessels, and A.P.E.s Todos se utilizan en la contención y observación de anomalías..
+
+<Box>
+<GuideEntityEmbed Entity="MachineAnomalyGenerator"/>
+</Box>
+
+El generador de anomalías puede producir una anomalía aleatoria en algún lugar de la estación a costa del plasma.
+
+## Anomalías
+Las anomalías son objetos estáticos que aparecen en la estación. No se pueden mover y es necesario solucionarlos, sin importar su ubicación.
+<Box>
+<GuideEntityEmbed Entity="AnomalyPyroclastic"/>
+</Box>
+
+Cada anomalía tiene tres estadísticas principales, dos de las cuales se pueden ver en los escaneos de anomalías:
+
+- [color=#a4885c]Gravedad:[/color] Este es un valor numérico correspondiente al peligro de una anomalía.
+- [color=#a4885c]Estabilidad:[/color] Se muestra como en descomposición, estable o en crecimiento; esta es la frecuencia y la extensión de los efectos.
+- [color=#a4885c]Salud:[/color] La salud es una estadística oculta. Disminuye cuando usas [color=#a4885c]partículas de contención[/color] en una anomalía. Si usa demasiados, la anomalía desaparecerá.
+
+## Pulsos y eventos supercríticos
+Los efectos más peligrosos de las anomalías se observan durante los [color=#a4885c]pulsos[/color] y [color=#a4885c]eventos supercríticos[/color].
+
+Los pulsos son ráfagas semirregulares de efectos anómalos. Son moderadamente peligrosos y aumentan tanto con la gravedad como con la estabilidad de una anomalía.
+
+Los eventos supercríticos solo se ven si una anomalía alcanza el 100 % de gravedad. Si esto sucede, la anomalía aumentará antes de desaparecer y convertirse en un evento catastrófico. ¡Estos deben evitarse a toda costa!
+
+</Document>

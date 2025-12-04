@@ -1,0 +1,70 @@
+<!--
+SPDX-FileCopyrightText: 2023 Julian Giebel <juliangiebel@live.de>
+SPDX-FileCopyrightText: 2023 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
+SPDX-FileCopyrightText: 2023 Myakot <30875116+Myakot@users.noreply.github.com>
+SPDX-FileCopyrightText: 2023 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
+SPDX-FileCopyrightText: 2023 deltanedas <39013340+deltanedas@users.noreply.github.com>
+SPDX-FileCopyrightText: 2024 Hannah Giovanna Dawson <karakkaraz@gmail.com>
+SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+
+SPDX-License-Identifier: MIT
+-->
+
+<Document>
+	# Xenoarqueología
+	La xenoarqueología es una subdisciplina científica centrada en investigar y experimentar con artefactos alienígenas.
+
+	Al inicio de cada turno, el departamento de Ciencia generalmente tendrá acceso a al menos dos artefactos para experimentar. Puedes comprar más hablando con el departamento de Carga.
+
+	Al investigar las cosas únicas que puede hacer cada artefacto, ganas Puntos de Investigación, aumentas el valor de venta del artefacto y, potencialmente, descubres una habilidad útil o dos que pueden ayudar a tu departamento o a toda la estación.
+
+	## Nodos de Artefacto
+	<Box>
+<GuideEntityEmbed Entity="ComplexXenoArtifact" Caption=""/>
+<GuideEntityEmbed Entity="ComplexXenoArtifactItem" Caption=""/>
+</Box>
+	Los artefactos consisten en un árbol de nodos generado aleatoriamente. Estos nodos tienen una "[color=#a4885c]profundidad[/color]", que representa cuán peligroso es el nodo, y el número de otros nodos conectados a él, llamados "[color=#a4885c]bordes[/color]".
+
+	Los artefactos siempre comienzan en profundidad cero, en la raíz del árbol. El objetivo principal de los científicos que trabajan en ellos es recorrer el árbol para encontrar tantos nodos como sea posible. El conocimiento se extrae de los nodos para ganar Puntos de Investigación y aumentar el valor de venta del artefacto.
+
+	Cada nodo tiene dos componentes: su [color=#a4885c]estímulo[/color] y una [color=#a4885c]reacción[/color].
+
+	Un estímulo es el comportamiento externo que desencadena la reacción. Hay una variedad de estos, y los nodos de mayor profundidad tienen estímulos más difíciles de realizar. Algunos estímulos necesitarán improvisación para ser activados, y puede que necesites hablar con otros departamentos para conseguir todo lo necesario.
+
+	Algunas reacciones son efectos instantáneos, mientras que otras son cambios permanentes. Una vez que un artefacto se activa, la reacción hace que el artefacto se mueva aleatoriamente a otro nodo al que está vinculado.
+
+	Con algo de ciencia experimental, puedes empezar a entender cómo se conectan los diferentes nodos de un artefacto y cómo moverse entre ellos activando nodos repetidamente.
+
+	Todos los nodos que no sean de profundidad cero tendrán exactamente un borde que conduce a su nodo padre. Todos los demás bordes de un nodo conducen a la siguiente profundidad.
+
+	## Analizador de Artefactos y Consola de Análisis
+	<Box>
+<GuideEntityEmbed Entity="MachineArtifactAnalyzer"/>
+<GuideEntityEmbed Entity="ComputerAnalysisConsole"/>
+</Box>
+	El equipo principal que utilizarás en la xenoarqueología es el [color=#a4885c]analizador de artefactos[/color] y la [color=#a4885c]consola de análisis[/color]. Puedes usar estos para crear informes que contengan información valiosa sobre un artefacto.
+
+	Para configurarlos, simplemente conéctalos con un configurador de red y coloca un artefacto sobre el analizador. Cada estación tiene al menos una de estas máquinas ya configuradas.
+
+	Usa el botón de [color=#a4885c]escaneo[/color] en la consola para descubrir qué estímulo necesita el artefacto y qué hará su reacción. El escaneo dura treinta segundos.
+
+	Usa el botón de [color=#a4885c]imprimir[/color] para guardar el resultado del escaneo, de manera que puedas consultarlo más tarde.
+
+	Una vez que hayas descubierto un nuevo nodo, puedes extraer puntos del artefacto usando el botón de [color=#a4885c]Extraer[/color].
+
+
+	## Ensamblaje de Artefactos
+	<GuideEntityEmbed Entity="ArtifactFragment" Caption="Artifact Fragment"/>
+
+	Es posible reunir varios fragmentos de artefactos y ensamblarlos en un artefacto funcional. Puedes pedir estos fragmentos a Salvamento, quienes generalmente los encuentran mientras minan asteroides o en Expediciones.
+
+	## Sesgo de Traversal
+	<Box>
+  <GuideEntityEmbed Entity="MachineArtifactAnalyzer"/>
+</Box>
+	Los artefactos colocados sobre un analizador de artefactos alimentado están sujetos a un sesgo que afecta a qué nodo se moverán después de ser activados. Este sesgo se puede configurar en la consola del artefacto.
+
+	Existen dos tipos de sesgos:
+	- [color=#a4885c]Arriba:[/color] favorece los nodos más cercanos al origen. Esto resulta en una disminución de la profundidad.
+	- [color=#a4885c]Abajo:[/color] favorece los nodos más alejados del origen. Esto resulta en un aumento de la profundidad.
+</Document>

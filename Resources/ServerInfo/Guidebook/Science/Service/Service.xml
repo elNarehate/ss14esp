@@ -1,0 +1,41 @@
+<!--
+SPDX-FileCopyrightText: 2024 UBlueberry <161545003+UBlueberry@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<Document>
+# Servicio
+[color=#9fed58]Servicio[/color] mantiene la estación limpia, eficiente y sensata para que todos los demás departamentos puedan hacer mejor su trabajo y mantener contento a su personal. También terminan haciendo la mayor parte del papeleo en la estación.
+
+## Personnel
+[color=#9fed58]Servicio[/color] El personal está compuesto por trabajadores de servicios, chefs, botánicos, camareros, conserjes, capellanes, payasos, mimos, músicos, abogados, bibliotecarios y pasajeros. El servicio está a cargo del Jefe de Personal.
+
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineChef" Caption="Chef"/>
+    <GuideEntityEmbed Entity="ToyFigurineBotanist" Caption="Botanist"/>
+    <GuideEntityEmbed Entity="ToyFigurineBartender" Caption="Bartender"/>
+    <GuideEntityEmbed Entity="ToyFigurineJanitor" Caption="Janitor"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineChaplain" Caption="Chaplain"/>
+    <GuideEntityEmbed Entity="ToyFigurineClown" Caption="Clown"/>
+    <GuideEntityEmbed Entity="ToyFigurineMime" Caption="Mime"/>
+    <GuideEntityEmbed Entity="ToyFigurineMusician" Caption="Musician"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineLawyer" Caption="Lawyer"/>
+    <GuideEntityEmbed Entity="ToyFigurineLibrarian" Caption="Librarian"/>
+    <GuideEntityEmbed Entity="ToyFigurinePassenger" Caption="Passenger"/>
+    <GuideEntityEmbed Entity="ToyFigurineHeadOfPersonnel" Caption="HoP"/>
+  </Box>
+
+	## Trabajando juntos
+	[color=#9fed58]Servicio[/color], a pesar de ser el más diverso, tiende a ser el más [color=#a4885c]interconectados los [/color] departamento de lejos.
+	Mayoría de [color=#9fed58]Servicios[/color] requieren trabajo en [color=#a4885c]equipo[/color] entre trabajadores.
+	Los chefs suelen necesitar ingredientes que sólo los botánicos pueden cultivar de forma eficiente. El barman puede pedir plátanos que sólo los payasos llevan en abundancia.
+	El abogado puede invitar al mimo a jugar charadas para convencer al juez de que su cliente es inocente.
+
+	Mucha [color=#a4885c] colaboración [/color] es necesario dentro y fuera [color=#9fed58]Servicio[/color]. muchas veces, [color=#9fed58]Servicio[/color] es requerido por otros departamentos, así que esté alerta.
+</Document>

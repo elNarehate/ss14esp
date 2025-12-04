@@ -1,0 +1,59 @@
+<!--
+SPDX-FileCopyrightText: 2023 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
+SPDX-FileCopyrightText: 2023 Myakot <30875116+Myakot@users.noreply.github.com>
+SPDX-FileCopyrightText: 2023 TurboTrackerss14 <130304754+TurboTrackerss14@users.noreply.github.com>
+SPDX-FileCopyrightText: 2023 faint <46868845+ficcialfaint@users.noreply.github.com>
+SPDX-FileCopyrightText: 2024 UBlueberry <161545003+UBlueberry@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Aviu00 <93730715+Aviu00@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Ilya246 <57039557+Ilya246@users.noreply.github.com>
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<Document>
+	# Seguridad
+	Garantizar la seguridad tanto de la estación como de la tripulación es la prioridad número uno para [color=#cb0000]Seguridad[/color]. Están listos para cualquier situación, y [color=#cb0000]Seguridad[/color] está presente para mantener el orden y controlar multitudes.
+
+	Se enfrentan a [textlink="Agentes del Sindicato" link="Traitors"], [textlink="Operativos Nucleares" link="NuclearOperatives"], [textlink="Zombis" link="Zombies"] y personal indisciplinado.
+
+	## Personal
+	El personal de [color=#cb0000]Seguridad[/color] está compuesto por Cadetes de Seguridad, Oficiales de Seguridad y el Detective. [color=#cb0000]Seguridad[/color] está a cargo del Alcaide y el Jefe de Seguridad.
+
+	<Box>
+		<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Secoff"/>
+		<GuideEntityEmbed Entity="ToyFigurineDetective" Caption="Detective"/>
+		<GuideEntityEmbed Entity="ToyFigurineWarden" Caption="Alcaide"/>
+		<GuideEntityEmbed Entity="ToyFigurineHeadOfSecurity" Caption="JdS"/>
+	</Box>
+
+	## Equipamiento
+	Primero tenemos herramientas no letales, un paso más allá que simplemente decirle a alguien que coopere con las instrucciones. Tanto el bastón de aturdimiento como el desactivador son capaces de limitar el movimiento de un agresor, mientras que las esposas se pueden aplicar para negar el movimiento libre a un criminal y el acceso a sus manos. Las esposas también tiran a la persona al suelo si tu [color=red]modo de daño[/color] está activo al desesposar.
+	<Box>
+		<GuideEntityEmbed Entity="Stunbaton"/>
+		<GuideEntityEmbed Entity="Handcuffs"/>
+		<GuideEntityEmbed Entity="WeaponDisabler"/>
+	</Box>
+
+	## Destellos
+	[color=#a4885c]Destellos[/color] son una herramienta efectiva para dispersar multitudes y capturar objetivos particularmente evasivos, con un área de efecto grande que ciega a todos los que no tengan protección.
+	Vale la pena señalar que los destellos se pueden usar tanto en un área grande ([color=yellow]tecla Z[/color]) como si atacas a alguien con él mientras el [color=red]modo de daño[/color] está activo. Es importante destacar que los destellos localizados duran [color=yellow]2.5[/color] veces más que los de área grande.
+	[color=#cb0000]Seguridad[/color] y [color=#a4885c]algunos[/color] otros miembros del personal tienen protección ocular contra destellos y granadas de destello.
+	<Box>
+		<GuideEntityEmbed Entity="Flash"/>
+		<GuideEntityEmbed Entity="ClothingEyesGlassesSecurity"/>
+		<GuideEntityEmbed Entity="GrenadeFlashBang"/>
+	</Box>
+
+	## Letales
+	Si la situación lo requiere, [color=#cb0000]Seguridad[/color] tiene acceso a rifles láser, escopetas, pistolas y rifles automáticos capaces de generar un fuego sustancial contra cualquiera que se oponga a la estación.
+	<Box>
+		<GuideEntityEmbed Entity="WeaponLaserCarbine"/>
+		<GuideEntityEmbed Entity="WeaponShotgunKammerer"/>
+		<GuideEntityEmbed Entity="WeaponPistolMk58"/>
+		<GuideEntityEmbed Entity="WeaponRifleLecter"/>
+	</Box>
+
+	## Varios
+	Los Oficiales de Seguridad no deben patrullar los túneles de mantenimiento en verde, especialmente si están solos. Los Oficiales de Seguridad deben centrarse en mantener la paz dentro de la estación.
+</Document>

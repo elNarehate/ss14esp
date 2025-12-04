@@ -1,0 +1,82 @@
+<!--
+SPDX-FileCopyrightText: 2023 Myakot <30875116+Myakot@users.noreply.github.com>
+SPDX-FileCopyrightText: 2023 Sir Winters <7543955+Owai-Seek@users.noreply.github.com>
+SPDX-FileCopyrightText: 2023 end <72604018+laok233@users.noreply.github.com>
+SPDX-FileCopyrightText: 2024 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+
+SPDX-License-Identifier: MIT
+-->
+
+<Document>
+# conserje
+
+Mantienes las cosas limpias, a veces es un trabajo duro, pero alguien tiene que hacerlo. Esto le guiará a través de las herramientas del oficio y cómo se utilizan.
+
+## Equipo básico
+<Box>
+<GuideEntityEmbed Entity="MopItem"/>
+<GuideEntityEmbed Entity="JanitorialTrolley"/>
+<GuideEntityEmbed Entity="MopBucket"/>
+<GuideEntityEmbed Entity="Bucket"/>
+<GuideEntityEmbed Entity="TrashBag"/>
+</Box>
+<Box>
+<GuideEntityEmbed Entity="SprayBottleSpaceCleaner"/>
+<GuideEntityEmbed Entity="BoxLightMixed"/>
+<GuideEntityEmbed Entity="SoapNT"/>
+<GuideEntityEmbed Entity="Mousetrap"/>
+</Box>
+
+## Equipo adicional
+<Box>
+<GuideEntityEmbed Entity="WetFloorSign"/>
+<GuideEntityEmbed Entity="Holoprojector" Caption="holosign projector"/>
+<GuideEntityEmbed Entity="LightReplacer"/>
+<GuideEntityEmbed Entity="WireBrush"/>
+</Box>
+<Box>
+<GuideEntityEmbed Entity="AdvMopItem" Caption="Advanced mop, ask in R&D"/>
+</Box>
+
+## Adquisición y eliminación de fluidos
+<Box>
+<GuideEntityEmbed Entity="WaterTankFull"/>
+<GuideEntityEmbed Entity="Sink"/>
+<GuideEntityEmbed Entity="FloorDrain"/>
+</Box>
+
+## Ordenando.
+Ahora, pasemos a la carne (figurativa) y las patatas. Estamos aquí para limpiar, ¿verdad? Mantengámoslo simple. Las principales herramientas que utilizarás son el confiable trapeador, una bolsa de basura, un limpiador de espacio y uno de los tres cubos diferentes.
+
+Trapear: Llena tu carrito con agua y luego encuentra algunos charcos. Moja tu trapeador y límpialo, el charco de agua resultante se secará después de un corto tiempo. ¡No olvides los carteles de suelo mojado!
+- Para drenar su carrito, arrástrelo (con el cursor) hacia un desagüe de piso. ¡Esto arrojará todos los fluidos del interior! Los desagües del piso generalmente se pueden encontrar en algún lugar médico, en el congelador de la cocina y, por supuesto, en el armario del conserje.
+
+Basura: colóquela directamente en la bolsa o sosténgala en la mano. Haga clic en -cerca- de la basura para recoger -toda- la basura cercana, o haga clic en cada pieza individualmente. Usar la bolsa en un triturador la vaciará.
+- Es posible que la carga quiera algo de su basura, ¡podría valer la pena registrarse de vez en cuando!
+
+Limpiador de espacios: ¡Este spray milagroso puede hacer dos cosas: limpiar graffitis y, en caso de necesidad, limpiar charcos!
+- Es posible que puedas obtener más de esto de la química.
+
+Reemplazo de luz: ¡Simplemente apunte a las bombillas rotas y haga clic!
+- ¡Reemplace suficientes bombillas rotas y obtenga una bombilla gratis!
+
+Llavero de limpieza: Tus llaves de confianza, cientos de ellas en un solo anillo. Si tan sólo pudieras recordar cuál va a dónde...
+- Al comienzo de la ronda, el llavero aparecerá con algunos niveles de acceso aleatorios. Podría abrir carga, podría abrir atención médica, ¿quién sabe?
+
+## Lidiando con huellas y senderos.
+Se vuelve un poco tedioso limpiar [italic]cada[/italic] pequeña huella dejada por esos molestos médicos.
+¿La solución? ¡Un poco de esfuerzo!
+
+Hay dos maneras de hacer esto:
+- Usar un trapeador en el piso cerca de las huellas limpiará el área de huellas y senderos. [bold]Aunque es lento, esto tiene la ventaja de no ensuciar el trapeador.[/bold]
+- Puedes utilizar una pastilla de jabón o un trapo húmedo para obtener el mismo efecto, aunque peor.
+
+## Deberes adicionales
+Un buen conserje siempre está buscando algo más que hacer y hay muchas herramientas a tu disposición. Esté atento a las luces rotas, ayude al chef a cuidar de los ratones en la cocina y, si se siente (realmente) generoso, intente reabastecer las máquinas expendedoras y los armarios de emergencia alrededor de la estación.
+
+##Información adicional:
+<GuideReagentEmbed Reagent="SpaceCleaner"/>
+<GuideReagentEmbed Reagent="Ammonia"/>
+
+</Document>
